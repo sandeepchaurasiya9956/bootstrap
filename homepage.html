@@ -1,0 +1,45 @@
+
+<style>
+    .box {
+        border: 2px solid green;
+        padding: 40px;
+        margin: 20px;
+        font-family: Century;
+        box-shadow: 0px 0px 10px 5px green inset;
+        border-radius: 20px;
+    }
+
+    .outer {
+        background: url('../images/back.jpg');
+        min-height: 450px;
+        background-size: 100% 100%;
+    }
+
+    .btn {
+        margin: 10px 0px;
+    }
+
+        .btn:hover {
+            background: orange;
+            transform: scale(1.2);
+        }
+</style>
+<div class="row outer">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 box">
+        <form action="" method="post">
+            <div class="row">
+                <div class="col-lg-12 h1 text-success text-center"> Registration Form</div>
+            </div>
+            Name :<input type="text" required name="name" class="form-control" />
+            Contact No:<input type="number" required name="mobno" class="form-control" />
+            Email:<input type="email" required name="email" class="form-control" />
+            Password <input type="password" required name="passwd" class="form-control" />
+            Address :<textarea class="form-control" name="address"></textarea>
+            Pincode :<input type="number" required name="pincode" class="form-control" />
+            Picture :<input type="file" required name="pic" class="form-control" />
+            <input type="submit" class="btn btn-success" />
+        </form>
+    </div>
+    <div class="col-sm-4"></div>
+</div>

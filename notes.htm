@@ -1,0 +1,202 @@
+Inheritence:-
+deriving the properties (member) and features(methods) from parent to child class is called as inheritence.
+
+Inheritence may defined as the mechanism of re-useability.
+using the Readymade Items (Data member + Member Function) from  existing class is a concept of Re-useability 
+inheritence.
+
+Basic Terms Related to, Inheritence
+1. Multi-Level class :
+
+2. Independent class :if one class donot  depend on any other class then it is called independent. 
+
+3. Dependent class (Relationship):if any class utilieses the, features of any existing ready-made class then 
+      this is called as dependent class and its set-ups a relationship B/W Both of them.
+  
+  
+Question : How will you sort a Array
+Ans: Using pre-defined Function
+
+1. sort(): sorting on values : aescending order
+2. rsort : sorting on values in reverse order : descending order.
+
+2. asort : associative sorting on values.
+3. ksort : sort the keys in Ascendiing order.
+
+4. arsort: reverse sorting on ascending order.
+5. krsort: reverse sorting on keys of Associative Array
+
+Types of Inheritence:-
+**********************
+1. Single Inheritence
+2. multi-lavel inheritence
+3. Heiriechal inheritence
+4. multiple inheritence
+5. hybrid inheritence
+6. cyclic inheritence
+
+One of the best use case of inheritence is applied on file Inclusion and In Laravel This Cocnept is called 
+Template Inheritence.
+
+=> What is file-inclusion:-
+extending the source code from one file another is called as file-inclusion.
+
+Types of error in php :_123total
+*************************************
+Note : we have 16 types of error lavel
+Don't get confuse B/W error level and legal error.
+Legal Error,We disturb the execution of the program.
+where as error level will raised only after program is successfully Running.
+
+1. Parse Error : if these error occur, program execution will not take place.
+
+2. Syntax Error : if these Error occur, Program execution will not take place.
+
+But in case of error level for ex: Undefined index error is Notice_Error will generates Error, But donot 
+the execution of the program.
+
+Ex2: Depecation Error, due to PHP standards there may be a chance, that you are using the latest
+ version of php but you are using some features which are of old legacy version in that scenerio, you will
+ get Depraction Error instead of terminatiog the program.
+ 
+   1. Syntax Error (parse error,compilation Error):
+   if occured No single line will not execute.
+
+   2. Notice or Warning error:
+    if occured then Notice Error or warning error is raised But, it will not affect the code just 
+	below the, Error line that is it do-not stop the, execution of the program.
+	
+  3.Fetal Error : 
+   if occured then no line below the code will execute ever.Until resolved.
+   
+  4. PHP Standards Error OR Exception
+  This type of Error, occur due to logical Mistakes,  which need to be either resolved 
+  or Handled using Exception Handling, Sometimes These error can be critical Like Fetal Error
+    Uncaught Error.
+  
+
+Ans: Using User-Defined Function
+
+ 1. Has Relationship : it is logical relationship B/W one or more class.
+                      This is by-default Relationship and called Inheritence.
+                       
+					   In order to achieve Inheritence we need extends Keywords.
+					   
+					   <child-class> will all Properties [extends] from <parent>
+		
+	 In order to Achieve Inheritence we require, at-least two multi-label class.
+     
+	 1. Parent class: This is Independent class.
+     2. Child class : This is Dependent Class over parent class.
+	 
+	 NOTE ::
+	 Syntax:-
+	       Parent class/ Master class/Super class/Derived class/Inherted class.
+		   
+		  Child-class/Sub-class/Inherting class/Deriving class.
+	 
+	 
+  2. Is Relationship : it is physical relationship B/W one or more class.
+                       This is explicit Relationship and called as Composition/Aggregation
+				
+	In order to achieve Is-Inheritence we need to explicitly make object of Any Class which want to use,you need
+	to inside own class.
+	
+	Inside own class:-
+	=> syntax:---
+	
+	class A{
+	
+	public function B(){
+	  $b = new classB();
+	  $b->someMethod();
+	
+	}
+	}
+ 
+ Difference B/W all of these :-
+ ******************************
+ 
+1. include : Includes the files successfully and multiple-times if found successfully if not found generates
+             notice error or warning error.
+			 
+2. include_once : Includes the files successfully and once only even if we add these lines multiple times.
+    if found successfully if not found generates notice error or warning error.
+                
+3. require : Means files is highly required, without this file execution of the code not be generated hence
+             if file is found it is loaded successfully otherwise it generated fetal error. and we can include
+			 the same file multiple times;.
+			 
+4. require_once : In require same file cannot be included multiple times. and if not found it will 
+                  generate the Error.
+				  
+Type :      include           |include_once         require               |require_once
+file
+loading     multiple times      only once.          multiple times.        Only once.
+Error       warning error       warning error       fetal error            fetal error
+Memory      more                less                more                   less
+
+Access Modifiers:-
+******************
+Access Modifiers are verbs when added before any Instance Variable or method, makes it hidden from 
+   the different scopes.
+   
+Possible Number of Scopes :-
+1. From outside the class(Public)
+2. From Inside th4 class(Private)
+3. From Child Class(Protector)
+
+Difference B/W Public,Private,        
+
+Location :       Public   |     Protected     |Private
+*******************************************************
+outside class :   valid   |   -------         |----
+inside class :    valid   |  valid            |valid
+child class :     valid   |  valid            |-----
+
+Method chaining in PHP:
+**********************       
+chaining one method with different method without destroying the instance is called as method chaining.
+  It is widely used by laravel,codeIgnitor and MVC Frameworks.
+  
+                                                                                                                                                                                                                                                                                                                                                                                             
+Introduction to PDBC (PHP Database Connectivity)
+************************************************
+PDBC: Connecting PHP Application with Database is called php database connectivity.
+
+why PDBC ?
+If we want to make application where storage of data is important such that using that data one can 
+drive entire, Enterprise then we require database.
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
